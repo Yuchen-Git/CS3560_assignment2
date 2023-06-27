@@ -124,7 +124,9 @@ public class AdminPanel implements ActionListener {
     public void createUser(String name) {
         if (name.length() < 2) {
             this.label.setText("Username is too short, must be at least 2 characters.");
-        } else if (this.userMap.get(name) == null) {
+        } else if (name.contains(" ") || name.contains("\t")) {
+            this.label.setText("Username contains invalid characters: space or tab.");
+        }else if (this.userMap.get(name) == null) {
             this.userMap.put(name, new TwitterUser(name));
             this.temp = new DefaultMutableTreeNode(this.userMap.get(name));
             this.temp.setAllowsChildren(false);

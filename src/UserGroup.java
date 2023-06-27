@@ -1,13 +1,16 @@
 import java.util.Iterator;
 import java.util.Vector;
+import java.time.LocalDateTime;
 
 public class UserGroup implements TwitterElement {
     private String groupID;
     private Vector<TwitterElement> children;
+    private LocalDateTime creationTime;
 
     public UserGroup(String groupID) {
         this.setGroupID(groupID);
         this.children = new Vector();
+        this.creationTime = LocalDateTime.now();
     }
 
     public String getGroupID() {
@@ -39,4 +42,8 @@ public class UserGroup implements TwitterElement {
         }
 
     }
+    public LocalDateTime getCreationTime() {
+        return this.creationTime;
+    }
+
 }

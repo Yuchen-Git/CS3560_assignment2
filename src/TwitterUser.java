@@ -13,6 +13,9 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 
 public class TwitterUser implements ActionListener, User, TwitterElement {
     private String id;
@@ -43,7 +46,10 @@ public class TwitterUser implements ActionListener, User, TwitterElement {
         this.setID(name);
         this.subscribers = new Vector();
         this.subscriptions = new DefaultListModel();
-        this.getSubscriptions().addElement("User created: " + Long.toString(this.creationTime));
+        long milliseconds = this.creationTime;
+        Instant instant = Instant.ofEpochMilli(milliseconds);
+        LocalDateTime creationDateTime = LocalDateTime.ofInstant(instant, ZoneId.systemDefault());
+        this.getSubscriptions().addElement("User created: " + creationDateTime.toString());
         this.newsfeed = new DefaultListModel();
     }
 

@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5b86d9b-80b4-476a-bf49-0434a278ac40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniTwitter_V1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdminPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GroupCountVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LastUpdateVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MessageCountVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PositiveCountVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwitterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwitterElementVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwitterUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserCountVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidateUsersVisitor.java" afterDir="false" />
+    <list default="true" id="a5b86d9b-80b4-476a-bf49-0434a278ac40" name="Changes" comment="fix the user creation time in not human readable format to readable now">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwitterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwitterUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserGroup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +23,41 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="assignment_2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="assignment_3" />
+                    <option name="lastUsedInstant" value="1687852267" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="assignment_2" />
+                    <option name="lastUsedInstant" value="1687852143" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1687852142" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="2RUoTbdTxgCMUgAJ16LcaDpBRdH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -54,7 +72,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "assignment__3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,10 +103,38 @@
       <option name="presentableId" value="Default" />
       <updated>1687314031758</updated>
       <workItem from="1687314033141" duration="2013000" />
+      <workItem from="1687852114790" duration="688000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="assignment_3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix the user creation time in not human readable format to readable now" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the user creation time in not human readable format to readable now" />
   </component>
 </project>
